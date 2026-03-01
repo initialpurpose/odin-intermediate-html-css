@@ -9,9 +9,15 @@
 <h1>My spending record</h1>
 
 <table>
+  <colgroup>
+    <col span="2" />
+    <col span="4" />
+  </colgroup>
+
   <caption>
     How I chose to spend my money
   </caption>
+  <thead>
   <tr>
     <th>Purchase</th>
     <th>Location</th>
@@ -19,6 +25,9 @@
     <th>Evaluation</th>
     <th>Cost (€)</th>
   </tr>
+  </thead>
+
+  <tbody>
   <tr>
     <td>Haircut</td>
     <td>Hairdresser</td>
@@ -47,10 +56,15 @@
     <td>Good</td>
     <td>5</td>
   </tr>
+  </tbody>
+
+  <tfoot>
   <tr>
     <td>SUM</td>
     <td>118</td>
   </tr>
+
+  </tfoot>
 </table>
 </body>
 </html>
